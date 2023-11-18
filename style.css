@@ -1,0 +1,32 @@
+body{
+    background: linear-gradient(to bottom right, #ff99cc, #33ccff);
+    height: 100vh;
+    
+}
+
+#progress{
+            width: 100%;
+            position:relative;
+            max-width: 400px;
+            margin: auto;
+            border: 1px solid #170c4e;
+            border-radius: 10px;
+            overflow: hidden;
+            height:50px;
+
+}
+.progress-bar{
+    width: 0%;
+    height: 30px;
+    position: absolute;
+    background-color: #6bea78;
+    height: 50px;
+    opacity:0.5;
+
+}
+.progress-text{
+    position:absolute;
+    z-index:2;
+    right:0;
+
+}
